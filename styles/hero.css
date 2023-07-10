@@ -1,0 +1,48 @@
+.herosection {
+
+    background: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp);
+    background-color: var(--color-secondary);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+
+    display: flex;
+    justify-content: center;
+    z-index: -12;
+    height: 25rem;
+}
+
+.herocontainer {
+
+    display: flex;
+    justify-items: left;
+    justify-content: space-between;
+    z-index: 1;
+
+}
+
+
+.herosection .herocontainer .herocontainerleft {
+    padding-left: 4.25rem;
+}
+
+.herosection .herocontainer .herocontainerleft h1 {
+    font-weight: 700;
+    /* margin-top: 76px; */
+    font-size: 40px;
+    line-height: 1.2;
+    color: #000;
+    margin-bottom: 2px;
+}
+
+.herocontainerleft .form{
+    display: flex;
+    align-items: center;
+}
+.girl-video{
+    display: flex;
+    flex: 1 1;
+    width: 37.188rem;
+    height: 25rem;
+
+}

@@ -1,0 +1,120 @@
+.navbar{
+    height: 45px;
+    width: 100%;
+    top: 0;
+    position: sticky;
+    z-index: 345;
+    background: #fbdc00;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+}
+.navbar.scrolled{
+    height: 45px;
+    width: 100%;
+    top: 0;
+    position: sticky;
+    z-index: 345;
+    background: white;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+}
+.navcontainer {
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 14px;
+    font-family: Ubuntu;
+    font-weight: 500;
+    margin: 10px 0;
+    max-width: 1100px;
+    @media screen and (max-width: 960px){
+        justify-content: left;
+        .hamburger{
+            margin: 0 24px;
+        }
+    }
+}
+
+.navbox2 ul {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    text-align: center;
+    white-space: nowrap;
+    
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: flex;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+@media screen and (max-width: 960px) {
+    .navbox2,.navbox3{
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+
+
+
+.navcontainer .navbox2 ul li {
+    /* margin: 0px, 6px; */
+    /* background-color: red; */
+    margin-right: 2.25rem;
+}
+
+.navcontainer .navbox2 ul li .login {
+    padding-top: 1px;
+}
+
+.navcontainer .navbox2 ul li a {
+    color: #000;
+    text-decoration: none;
+}
+.navbox2 ul li a:hover{
+    color: red;
+}
+
+
+
+.navcontainer .navbox3 ul {
+    display: flex;
+    margin-right: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navcontainer .navbox3 ul li {
+    margin: 0px 5px;
+}
+
+.signupbtn {
+    background-color: red;
+    border-radius: 10px;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    color: beige;
+}

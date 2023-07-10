@@ -1,0 +1,93 @@
+.footer1mainbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 50px 50px;
+    background: #fbdc00;
+}
+
+.footer1box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.footer1box h2 {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.footer1box a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer1boxrow {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+}
+
+.footer1boxrow a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+.footer1boxrow a:hover{
+    text-decoration: underline;
+}
+
+.footer1boxrow h3 {
+    font-size: 18px;
+    text-align: left;
+}
+
+.footer2box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0;
+    background-color: #ebbe00;
+}
+
+.footer2boxitem {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+.footer2boxitem a{
+    width: fit-content;
+    text-decoration: none;
+    line-height: 2rem;
+    color: #000;
+}
+.footer2boxitem  a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.footer {
+    display: flex;
+}
+.footer3box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 30px;
+    background: #ebbe00;
+    font-size: 12px;
+}
+.footer3box{
+    font-weight: 700;
+}
+.footer3boxitem{
+    display: flex;
+}
+.footer3boxitem ul{
+    display: flex;
+}
+.footer3boxitem ul li{
+    margin-right: 5px;
+    font-weight: 700;
+}
+.footer3boxitem ul li a:hover{
+    text-decoration: underline;
+}

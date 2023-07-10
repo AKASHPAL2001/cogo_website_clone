@@ -1,0 +1,104 @@
+
+.section3 { 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.section3box {
+    margin: 0;
+}
+
+.section3boxsubhed {
+    display: flex;
+    justify-content: center;
+}
+
+.section3subbox a {
+    margin-right: 51px;
+    text-decoration: none;
+    color: black;
+}
+
+.section3down {
+    display: flex;
+    /* margin-top: 10px; */
+    position: relative;
+    padding-top: 0.8rem;
+}
+
+.discover {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.section3downbox {
+    display: flex;
+    flex-direction: column;
+}
+.section3card {
+    width: 17.75rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(169, 188, 218, .65);
+    margin-bottom: 7.5rem;
+}
+.section3card .stages{
+    font-weight: 600;
+    color: #ebbe00;
+    /* margin-left: 42px; */
+    margin-bottom: 0px;
+}
+.section3card span{
+   display: flex;
+}
+.section3card p{
+    padding-bottom: 5px;
+    padding-left: 8px;
+    margin: 0;
+ }
+.discover img {
+    width: 33px;
+    height: 33px;
+    margin-top: 24px;
+    margin-left: 40px;
+
+}
+
+.discover h3 {
+    font-size: 20px;
+}
+
+
+.section3subbox1 {
+    background-color: #ebbe00;
+    border-radius: 41px;
+    padding: 15px 31px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    color: beige;
+    margin-right: 13px;
+}
+
+.section3subbox2 {
+    background: #e5dfdf;
+    border-radius: 41px;
+    padding: 15px 31px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    color: beige;
+    margin-right: 13px;
+}
+
+.section3subbox1  a {
+    color: black;
+    text-decoration: none;
+}
+.section3subbox2 a{
+    color: #000 !important;
+    text-decoration: none;
+}
