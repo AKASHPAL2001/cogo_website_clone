@@ -9,4 +9,4 @@
 
 <img width="534" alt="Screenshot 2023-07-21 100522" src="https://github.com/AKASHPAL2001/cogo_website_clone/assets/55877359/c270f0ad-6374-4e02-959a-882e160268d0">
 
-could not make hero section, laptop section and footer responsive. 
+Faced difficulty in making hero section, laptop section and footer responsive.  Also the animation in hero section is being load as a image.
